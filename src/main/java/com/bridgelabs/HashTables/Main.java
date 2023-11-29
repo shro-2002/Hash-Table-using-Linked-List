@@ -8,6 +8,8 @@ public class Main {
 		HashTable<String, Integer> table = new HashTable<>(20);
 
 		FindFrequency.WordFrequency(s, table);
+		
+		table.delete("avoidable");
 
 		table.getAllValues();
 
